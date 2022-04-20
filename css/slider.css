@@ -1,0 +1,87 @@
+.slider{
+    /*dimensões*/
+    height: 100%;
+    border-radius: 10px;
+
+    /*posições*/
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    /*estilo*/    
+    background-color: deeppink;
+
+    /*ação*/
+    overflow: hidden;
+    
+}
+
+.slider-button{
+    /*dimensões*/
+    width:40px ;
+    height:100%;
+    font-size: 3rem;
+    border-radius: 10px;
+
+    /*posições*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+
+    /*estilo*/
+    color: floralwhite;
+    
+    /*ação*/
+    cursor: pointer;
+    color: transparent;
+    transition: all 1s;
+}
+.slider-button:hover{
+    background-color: rgba(0, 0, 0, 0.404);
+    color: aliceblue;
+}
+#anterior{
+    left: 0px;
+}
+#proximo{
+    right: 0px;
+}
+.slider-item-container{
+    /*dimensões*/
+    height: 100%;
+    gap: 1px;
+
+    /*posições*/
+    display: flex;
+
+    /*estilo*/
+    background-color: dodgerblue;
+
+    /*ação*/
+    
+}
+.slider-item{
+    /*dimensões*/
+    height: 50vh;
+    width: 50vw;
+    
+
+    /*estilo*/
+    background-color: blueviolet;
+
+    /*posições*/
+}
+.slider-item:first-child{
+    transition: 1s;
+    margin-left: -54vw;
+
+}
+
+.slider-item img{
+    /*dimensões*/
+    height: 100%;
+    width: 100%;
+    
+}

@@ -1,0 +1,14 @@
+main{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-container{
+    height: 50vh;
+    width: 50vw;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px darkblue; /*borda interna - sombra */
+    background-color: blueviolet;
+}
